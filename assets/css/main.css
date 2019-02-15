@@ -1432,8 +1432,8 @@ input, select, textarea {
 		}
 
 			.gallery article .image {
-				margin: 0;
 				display: block;
+				margin: 2.5px;
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -2249,6 +2249,13 @@ input, select, textarea {
 
 	#two {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#three {
+		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
