@@ -2436,3 +2436,7 @@ body.is-touch .main {
 	width: 20px;
 	height: 20px;
 }
+
+.spacing {
+	letter-spacing: 0.5px;
+}
